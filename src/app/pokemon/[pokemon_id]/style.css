@@ -1,0 +1,13 @@
+/* Accordion Body */
+.custom-accordion .accordion-body {
+    background-color: rgb(33, 37, 41); /* Same color with the navbar */
+    color: whitesmoke;
+}
+
+.progress-bar-grey {
+    background-color: grey;
+}
+
+.custom-background{
+    background-color: lightblue; 
+}
