@@ -5,9 +5,5 @@
 }
 
 .progress-bar-grey {
-    background-color: grey;
-}
-
-.custom-background{
-    background-color: lightblue; 
+    background-color: rgb(33, 37, 41);
 }

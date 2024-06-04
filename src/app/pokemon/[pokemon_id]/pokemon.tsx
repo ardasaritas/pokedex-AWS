@@ -41,9 +41,9 @@ function PokemonComponent(props : Props) {
                    <ProgressBar variant="warning" animated now={pokemon.defense} label={`${pokemon.defense}`} />
                    <ProgressBar className="progress-bar-grey" animated now = {200 - pokemon.defense} label={`Defence`} />
                    </ProgressBar>
-                   <Accordion defaultActiveKey="0" className="custom-accordion">
+                   <Accordion defaultActiveKey="0" className="custom-accordion" flush>
                      <Accordion.Item eventKey="0">
-                        <Accordion.Header>Pokemon Type</Accordion.Header>
+                        <Accordion.Header><h5>Pokemon Type</h5></Accordion.Header>
                         <Accordion.Body>
                         <Col md="auto">{pokemon.pokemonType[0]}</Col>
                         <Col md="auto">{pokemon.pokemonType[1]}</Col>
@@ -53,7 +53,7 @@ function PokemonComponent(props : Props) {
                   <Row>
                   <Accordion defaultActiveKey="0" className="custom-accordion">
                      <Accordion.Item eventKey="0">
-                        <Accordion.Header>Evolution Family</Accordion.Header>
+                        <Accordion.Header><h5>Evolution Family</h5></Accordion.Header>
                         <Accordion.Body>
                         <Col md="auto">{pokemon.evolutionFamily[0]} <Badge bg="danger">Devolution</Badge> </Col>
                         <Col md="auto">{pokemon.evolutionFamily[1]} <Badge bg="secondary">Current</Badge> </Col>
