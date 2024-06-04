@@ -24,7 +24,7 @@ function PokemonComponent(props : Props) {
                    <Image src={pokemon.mainImage} thumbnail />
                </Col>
                <Col>
-               <Stack gap = {2}>
+               <Stack gap = {3}>
                    <ProgressBar>
                    <ProgressBar variant="info" animated now={pokemon.speed} label={`${pokemon.speed}`} />
                    <ProgressBar className="progress-bar-grey" animated now = {200 - pokemon.speed} label={`Speed`} />
